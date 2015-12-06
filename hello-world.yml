@@ -1,0 +1,10 @@
+template: Hello, %s!
+defaultName: Stranger
+
+server:
+  type: simple
+  applicationContextPath: / # this makes the assets (index.html) available at http://host
+  rootPath: /api/* # resources http://host/api/
+  connector:
+    type: http
+    port: 8080 # Server port is overriden on startup in src/main/bin/app.bat

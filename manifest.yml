@@ -1,0 +1,6 @@
+applications:
+- name: fredl-hello-dropwizard
+  host: fredl-hello-dropwizard
+  memory: 256MB
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: target/dropwizard-0.0.1-SNAPSHOT-bluemix.zip
